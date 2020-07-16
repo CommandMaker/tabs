@@ -1,0 +1,49 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(236, 236, 236);
+    padding-left: 10px;
+}
+
+.top-nav p {
+    font-size: 23px;
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.top-nav {
+    background-color: #0275d8;
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.menu-button {
+    border: none;
+    background-color: transparent;
+    ;
+}
+
+.menu-button span {
+    width: 150%;
+    height: 150%;
+    vertical-align: middle;
+}
+
+.nav-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1280px) {
+    .top-nav {
+        font-size: 20px;
+    }
+}

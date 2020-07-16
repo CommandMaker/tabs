@@ -1,10 +1,14 @@
 html {
     font-family: sans-serif;
+    position: relative;
+    overflow-x: hidden;
 }
 
 body {
     background-color: rgb(236, 236, 236);
     padding-left: 10px;
+    position: relative;
+    overflow-x: hidden
 }
 
 .top-nav p {
